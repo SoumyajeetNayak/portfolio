@@ -22,10 +22,18 @@ export default createMuiTheme({
     },
     typography:{
         h4:{
-            fontWeight:400
+            fontWeight:400,
         },
         mainTextColor: {
             color:`${cwsWhite}`
+        },
+        tabItem: {
+            color:`${cwsWhite}`,
+            fontWeight: 700,
+            fontSize:"1rem",
+            minWidth: 1,
+            marginLeft: "20px",
+            fontFamily: "Raleway"
         }
     },
 })
