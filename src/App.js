@@ -1,7 +1,11 @@
-function App() {
+import Header from "./components/ui/Header";
+
+const App = () => {
   return (
     <div className="App">
+        <Header/>
       Hello !
+
     </div>
   );
 }
