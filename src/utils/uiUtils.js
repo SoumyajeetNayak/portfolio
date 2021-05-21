@@ -10,3 +10,12 @@ export function ElevationScroll({children}){
         elevation: trigger ? 4 : 0
     });
 }
+
+export const mainTabList = [
+    {id: 0, name: "Home", path: "/", component: () => <div>Home</div>},
+    {id: 1, name: "Blog", path: "/blog", component: () => <div>Blog</div>},
+    {id: 2, name: "Courses", path: "/courses", component: () => <div>Courses</div>},
+    {id: 3, name: "Interview", path: "/interview", component: () => <div>Interview</div>},
+    {id: 4, name: "About", path: "/about", component: () => <div>About</div>},
+]
+
